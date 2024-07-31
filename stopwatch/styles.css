@@ -1,0 +1,59 @@
+/* Basic styling for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+font-size:16px;
+}
+
+.display {
+font-size: 2em;
+margin-bottom: 10px;
+width:400px;
+height:50px;
+
+}
+
+
+/* Container for the stopwatch */
+.stopwatch {
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255,255,255, 4.0);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Display area for the stopwatch */
+
+
+/* Controls area containing buttons */
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for all buttons */
+button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+  
